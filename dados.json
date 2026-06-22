@@ -1,0 +1,217 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "davi Ayler",
+      "email": "daviayler@gmail.com",
+      "senha": "scrypt:32768:8:1$7pGH8UrIxl7L8WFt$358909206eb316bce966e21bbe4fb36c7a8121d054d9de2c8cb1b8e78e41851b22107c7b041d7a64c739c44fea0ca9665964d6219fbd12cc5b51b0d46e754dc9"
+    }
+  ],
+  "produtos": [
+    {
+      "sku": "SKU-1000",
+      "nome": "monitor testeeee",
+      "preco": "R$ 89.990,93",
+      "quantidade": 0,
+      "categoria": "Informática",
+      "statusText": "Esgotado",
+      "badgeClass": "badge-out-stock"
+    },
+    {
+      "sku": "SKU-1013",
+      "nome": "Cafeteira Elétrica Inox",
+      "preco": "R$ 189,00",
+      "quantidade": 12,
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "sku": "SKU-1026",
+      "nome": "Smartphone 128GB Ultra",
+      "preco": "R$ 2499,00",
+      "quantidade": 8,
+      "categoria": "Celulares"
+    },
+    {
+      "sku": "SKU-1039",
+      "nome": "Fone Bluetooth Noise Cancelling",
+      "preco": "R$ 349,90",
+      "quantidade": 3,
+      "categoria": "Áudio"
+    },
+    {
+      "sku": "SKU-1052",
+      "nome": "Teclado Mecânico RGB",
+      "preco": "R$ 279,00",
+      "quantidade": 18,
+      "categoria": "Informática"
+    },
+    {
+      "sku": "SKU-1065",
+      "nome": "Notebook Intel i5 16GB RAM",
+      "preco": "R$ 4199,00",
+      "quantidade": 6,
+      "categoria": "Informática"
+    },
+    {
+      "sku": "SKU-1078",
+      "nome": "Liquidificador Turbo 1000W",
+      "preco": "R$ 159,00",
+      "quantidade": 0,
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "sku": "SKU-1091",
+      "nome": "Smart TV 4K 50\" Crystal",
+      "preco": "R$ 2199,00",
+      "quantidade": 10,
+      "categoria": "TV e Vídeo"
+    },
+    {
+      "sku": "SKU-1104",
+      "nome": "Carregador Rápido GaN 65W",
+      "preco": "R$ 129,00",
+      "quantidade": 4,
+      "categoria": "Acessórios"
+    },
+    {
+      "sku": "SKU-1117",
+      "nome": "Console PlayStation 5 Slim",
+      "preco": "R$ 3799,00",
+      "quantidade": 2,
+      "categoria": "Games"
+    }
+  ],
+  "pedidos_cliente": [],
+  "pedidos_funcionario": [
+    {
+      "id": "PED-9087",
+      "client": "João Silva",
+      "date": "Hoje, 14:30",
+      "status": "Pendente",
+      "total": 1250.9,
+      "paymentMethod": "PIX",
+      "store": "Centro",
+      "items": [
+        {
+          "name": "Monitor Gamer 24\" LED FHD",
+          "qtd": 1,
+          "price": 899.9
+        },
+        {
+          "name": "Teclado Mecânico RGB",
+          "qtd": 1,
+          "price": 279.0
+        }
+      ]
+    },
+    {
+      "id": "PED-9086",
+      "client": "Maria Oliveira",
+      "date": "Hoje, 14:15",
+      "status": "Em Separação",
+      "total": 2849.0,
+      "paymentMethod": "Cartão de Crédito",
+      "installments": 3,
+      "store": "Shopping Mall",
+      "items": [
+        {
+          "name": "Smartphone 128GB Ultra",
+          "qtd": 1,
+          "price": 2499.0
+        },
+        {
+          "name": "Carregador Rápido GaN 65W",
+          "qtd": 1,
+          "price": 129.0
+        }
+      ]
+    },
+    {
+      "id": "PED-9085",
+      "client": "Carlos Santos",
+      "date": "Hoje, 13:50",
+      "status": "Pronto para Retirada",
+      "total": 549.9,
+      "paymentMethod": "PIX",
+      "store": "Zona Norte",
+      "items": [
+        {
+          "name": "Fone Bluetooth Noise Cancelling",
+          "qtd": 1,
+          "price": 349.9
+        },
+        {
+          "name": "Cafeteira Elétrica Inox",
+          "qtd": 1,
+          "price": 189.0
+        }
+      ]
+    },
+    {
+      "id": "PED-9084",
+      "client": "Ana Beatriz Ribeiro",
+      "date": "Hoje, 13:10",
+      "status": "Em Separação",
+      "total": 4498.0,
+      "paymentMethod": "Cartão de Crédito",
+      "installments": 6,
+      "store": "Centro",
+      "items": [
+        {
+          "name": "Notebook Intel i5 16GB RAM",
+          "qtd": 1,
+          "price": 4199.0
+        },
+        {
+          "name": "Mouse Pad Gamer",
+          "qtd": 1,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "id": "PED-9083",
+      "client": "Marcos Souza Filhos",
+      "date": "Ontem, 18:45",
+      "status": "Finalizado",
+      "total": 2378.0,
+      "paymentMethod": "PIX",
+      "store": "Distrito Boémio",
+      "items": [
+        {
+          "name": "Console PlayStation 5 Slim",
+          "qtd": 1,
+          "price": 3799.0
+        }
+      ]
+    },
+    {
+      "id": "PED-9082",
+      "client": "Juliana Lima Ramos",
+      "date": "Ontem, 17:20",
+      "status": "Cancelado",
+      "total": 0,
+      "paymentMethod": "PIX",
+      "store": "Centro",
+      "items": [
+        {
+          "name": "Smart TV 4K 50\" Crystal",
+          "qtd": 1,
+          "price": 2199.0
+        }
+      ]
+    }
+  ],
+  "enderecos": [
+    {
+      "id": 1,
+      "label": "Casa",
+      "street": "Rua Principal",
+      "number": "123",
+      "complement": "Apto 302",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "zip": "90000-000"
+    }
+  ]
+}
