@@ -676,4 +676,4 @@ def confirmar_retirada(pedido_id):
 
 if __name__ == '__main__':
     carregar_dados()
-    app.run(debug=False)
+    app.run(debug = False, host = '0.0.0.0', port = 5000)
