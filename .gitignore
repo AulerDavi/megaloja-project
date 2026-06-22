@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Dados do JSON
+dados.json
