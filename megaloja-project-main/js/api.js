@@ -4,7 +4,9 @@
  * O backend roda em http://localhost:5000
  */
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = window.location.hostname === 'localhost'
+    ? 'http://localhost:5000'
+    : 'https://megaloja-backend.onrender.com/';
 
 // ============================================================
 // AUTENTICAÇÃO
